@@ -1,4 +1,4 @@
-{% set version = "1.7.9" %}
+{% set version = "1.8.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dplR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dplR/dplR_{{ version }}.tar.gz
-  sha256: 4c7b2790d7da59d50626ca44ffbca90b9e047332d2d0fcc433bab5ed3053b02b
+  sha256: 5e5168358a251402c4761fd6bb11386340fcf084f14dccf8a805e0d01b6ef838
 
 build:
   # Checking windows to see if it passes. Uncomment the line if it fails.
